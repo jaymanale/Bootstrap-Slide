@@ -122,6 +122,30 @@
         crossorigin="anonymous"></script>
     <!-- bootstrap js file-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+      window.sr=ScrollReveal();
+
+      sr.reveal('.showcase-left',{
+        duration: 2000,
+        origin:'left',
+        distance:'200px'
+      });
+      sr.reveal('.showcase-right',{
+        duration:2000,
+        origin:'right'
+      });
+      sr.reveal('.showcase-btn',{
+        duration:2000,
+        delay:1500,
+        origin:'bottom'
+      });
+        sr.reveal('.product-left',{
+        duration:2000,
+        origin:'bottom',
+        viewFactor:0.2
+      });
+      </script>
 </body>
 
 </html>
